@@ -7,3 +7,14 @@ main{
   align-items: center;
   justify-content: center;
 }
+#name{
+  margin-right: 0.5rem;
+  height: 2rem;
+}
+#submit{ 
+  background-color: rgb(29, 118, 213);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}

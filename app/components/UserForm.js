@@ -39,8 +39,8 @@ const UserForm = () => {
     return ( 
         <div className="userForm">
             <form onSubmit={handleSubmit}>
-                <input type="text" value={userInput} onChange={(e)=>{setUserInput(e.target.value)}} placeholder="Enter your name"/>
-                <input type="submit" value="submit"/>
+                <input type="text" id="name" value={userInput} onChange={(e)=>{setUserInput(e.target.value)}} placeholder="Enter your name"/>
+                <input type="submit" value="submit" id="submit"/>
             </form>
             <div>
                 {Boolean(age) && <p>I think your age is {age}.</p>}
